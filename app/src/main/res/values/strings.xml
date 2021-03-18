@@ -11,4 +11,16 @@
     <string name="login_failed">"Login failed"</string>
     <string name="login">Login</string>
     <string name="Signup">SIGN UP (IT\'S FREE!)</string>
+    <string name="home">Home</string>
+    <string name="compose">Compose</string>
+    <string name="my_feed">My Feed</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="description">Description…</string>
+    <string name="submit">Submit</string>
+    <string name="log_out">Log Out</string>
+    <string name="camera_image">Camera Image</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="instaglam_icon">Instaglam Icon</string>
 </resources>

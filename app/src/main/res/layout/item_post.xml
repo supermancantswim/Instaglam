@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <ImageView
+        android:id="@+id/ivAvatar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="start"
+        android:contentDescription="@string/profile_picture"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivAvatar"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="14dp"
+        android:layout_toStartOf="@+id/tvTimestamp"
+        android:layout_toEndOf="@+id/ivAvatar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:text="Jordie LaForge" />
+
+    <TextView
+        android:id="@+id/tvTimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ivImage"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="14dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        tools:text="20NOV20" />
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/ivAvatar"
+        android:layout_marginTop="3dp"
+        android:contentDescription="@string/camera_image"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivImage"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="8dp"
+        tools:text="New contacts!" />
+
+
+</RelativeLayout>
